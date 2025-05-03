@@ -29,7 +29,31 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("hello World");
+    // console.log("hello World");
 }
 
-console.log(typeof id);
+// console.log(typeof id);
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (premitive) , heap(non-premitive)
+
+let myYtName = "adi.com"
+let anotherName = myYtName
+anotherName = "chaiaurcode"
+
+console.log(myYtName);
+console.log(anotherName);
+
+let userOne = {
+    emali: "aditya.hmain.com",
+    upi: "user@ybl", 
+}
+
+let userTwo = userOne
+
+userTwo.email = "hiteankcsd.googlle.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
