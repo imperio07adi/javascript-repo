@@ -43,22 +43,34 @@
 // * Count Even Numbers
 //     * Given: [1,2,3,4,5]
 //     * Output: 2 (2 and 4)
-const number = [1,2,3,4,5]
-let count = 0
-for(let i=0;i<number.length;i++){
-    if (number[i] % 2 ==0){
-        // console.log(number[i])
-        count++
-    }
-}
-console.log(count);
+// const number = [1,2,3,4,5]
+// let count = 0
+// for(let i=0;i<number.length;i++){
+//     if (number[i] % 2 ==0){
+//         // console.log(number[i])
+//         count++
+//     }
+// }
+// console.log(count);
 
 
 
 
-// * Count Occurrences of a Number
-//     * Given: [1,2,2,3,2], target: 2
-//     * Output: 3
+// // * Count Occurrences of a Number
+// //     * Given: [1,2,2,3,2], target: 2
+// //     * Output: 3
+// const num = [1,2,2,3,2]
+// const target = 2
+// let count = 0
+// for(let i=0;i<num.length;i++){
+//     if(num[i] == target){
+//         count++
+//     }
+// }
+// console.log(count);
+
+
+
 // * Reverse an Array
 //     * Given: [1,2,3]
 //     * Output: [3,2,1]
