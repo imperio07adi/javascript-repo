@@ -74,6 +74,16 @@
 // * Reverse an Array
 //     * Given: [1,2,3]
 //     * Output: [3,2,1]
+// const arr = [1,2,3]
+// let rev = []
+// for (let i=arr.length-1; i>=0;i--){
+//     rev.push(arr[i])
+// }
+// console.log(rev);
+
+
+
+
 // * Remove Duplicates
 //     * Given: [1,2,2,3]
 //     * Output: [1,2,3]
