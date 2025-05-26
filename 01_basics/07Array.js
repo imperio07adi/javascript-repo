@@ -87,12 +87,58 @@
 // * Remove Duplicates
 //     * Given: [1,2,2,3]
 //     * Output: [1,2,3]
+// let arr = [1,2,2,3,3,4,4,5]
+
+// for(let i=0;i<arr.length;i++){
+//     if(arr[i]==arr[i+1]){
+//         arr.splice((arr[i]), 1)
+//     }
+// }
+// console.log(arr);
+
+
 // * Check if  Array Contains a Value
 //     * Given: [5,7,8], Value :7
 //     * Output: true
+
+// let arr = [5,7,8]
+// let target = 7
+// istrue = false
+
+// for (let i=0;i<arr.length;i++){
+//     if(arr[i] == target){
+//         istrue = true
+//         break
+//     }
+//     else if (arr[i] != target){
+//         istrue = false
+//     }
+// }
+// console.log(istrue);
+
+
+
 // * Double All Values
 //     * Given: [1,2,3]
 //     * Output: [2,4,6]
+// const arr = [1,2,3]
+// let uparr = []
+// for(let i=0;i<arr.length;i++){
+//     uparr.push(arr[i]*2)
+
+// }
+// console.log(uparr);
+
+
 // * Filter Out Odd Numbers
 //     * Given: [1,2,3,4]
 //     * Output: [2,4]
+
+// const arr = [1,2,3,4]
+// let uparr = []
+// for(let i=0;i<arr.length;i++){
+//     if(arr[i] % 2 ==0){
+//         uparr.push(arr[i])
+//     }
+// }
+// console.log(uparr);
