@@ -13,20 +13,33 @@
 // * Find Max Number
 //     * Given: [4,9,2,7]
 //     * Output: 9
-let arr =[4,9,2,7]
-let max = 0
-for(let i=0;i<arr.length;i++){
-    if(max<arr[i]){
-        max = arr[i]
-    }
-}
-console.log(max);
+// let arr =[4,9,2,7]
+// let max = 0
+// for(let i=0;i<arr.length;i++){
+//     if(max<arr[i]){
+//         max = arr[i]
+//     }
+// }
+// console.log(max);
 
 
 
 // * Find the Minimum Number
 //     * Given: [4,9,2,7]
 //     * Output: 2
+// let arr = [4,9,2,7];
+// min = arr[0] 
+// for(let i=0;i<arr.length;i++){
+//     if (arr[i]< min){
+//         min = arr[i]
+//     }
+// }
+// console.log(min);
+
+
+
+
+
 // * Count Even Numbers
 //     * Given: [1,2,3,4,5]
 //     * Output: 2 (2 and 4)
